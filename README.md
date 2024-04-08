@@ -1,9 +1,24 @@
 # Ohjelmistotekniikka, harjoitustyö
-## Tehtävät
-### Viikko 1
-[gitlog.txt](https://github.com/aliskyalisky/ot-harjoitustyo/blob/main/laskarit/viikko1/gitlog.txt)
-[komentorivi.txt](https://github.com/aliskyalisky/ot-harjoitustyo/blob/main/laskarit/viikko1/komentorivi.txt)
+## Budjetointisovellus
 
-### Viikko 2
+Sovellus auttaa pitämään käyttäjä ajantasalla menoista ja tuloistaan.
+
+### Asennus
+
+1. Asenna riippuvuudet komennolla:
+
+```bash
+poetry install
+```
+
+2. Käynnistä sovellus komennolla:
+
+```bash
+poetry run invoke start
+```
+
+### Dokumentaatio
 [tuntikirjanpito](https://github.com/aliskyalisky/ot-harjoitustyo/blob/main/dokumentaatio/tuntikirjanpito.md)
 [vaatimusmäärittely](https://github.com/aliskyalisky/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
+[changelog](https://github.com/aliskyalisky/ot-harjoitustyo/blob/main/dokumentaatio/changelog.md)
+
