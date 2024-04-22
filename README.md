@@ -21,4 +21,5 @@ poetry run invoke start
 [tuntikirjanpito](https://github.com/aliskyalisky/ot-harjoitustyo/blob/main/dokumentaatio/tuntikirjanpito.md)
 [vaatimusmäärittely](https://github.com/aliskyalisky/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
 [changelog](https://github.com/aliskyalisky/ot-harjoitustyo/blob/main/dokumentaatio/changelog.md)
+[release](https://github.com/aliskyalisky/ot-harjoitustyo/releases/tag/Viiikko5)
 
