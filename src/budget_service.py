@@ -20,4 +20,3 @@ class Budget:
         for expense in self.expenses:
             text += str(expense) + ": " + str(self.expenses[expense]) + "\n"
         return text
-            

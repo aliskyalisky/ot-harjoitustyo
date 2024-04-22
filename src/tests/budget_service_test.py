@@ -1,6 +1,7 @@
 import unittest
 from budget_service import Budget
 
+
 class TestBudget(unittest.TestCase):
     def setUp(self):
         pass
