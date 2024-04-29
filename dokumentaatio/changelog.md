@@ -17,3 +17,7 @@
 ## Viikko 5
 - Käyttäjän luonti
 - Kirjautuminen
+
+## Viikko 6
+- Lisää testejä
+- Dokumentaation päivitystä ja täydentämistä

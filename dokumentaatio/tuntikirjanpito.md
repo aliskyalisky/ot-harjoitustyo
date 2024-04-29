@@ -5,5 +5,6 @@
 | 25.3. | 2    | Harjoitustyön suunnittelu ja dokumentaation aloitus |
 | 8.4. | 4 | Harjoitustyön logiikan raakile |
 | 15.4. | 2 | Harjoitustyön edistämistä |
-| 22.4 | 2 | Kirjautumisjärjestelmän alkukantainen toteutus |
-| SUM | 10 | |
+| 22.4. | 2 | Kirjautumisjärjestelmän alkukantainen toteutus |
+| 29.4. | 3 | Dokumentaation täydentämistä, testejä |
+| SUM | 13 | |
