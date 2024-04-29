@@ -10,7 +10,7 @@ Vielä toistaiseksi sovellus pyörii pääosin UI:ssa. Tarkoituksena on siirtä�
 
 Yksittäisistä käyttäjistä vastaa luokka User (user.py), ja näistä kaikista Usereista vastaa UserService(user_service.py). Budjetteja on tällä hetkellä mahdollista luoda vain yksi kappale, josta vastaa BudgetService(budget_service.py)
 Luokkakaavio:
-![Luokkakaavio](../kuvat/kaavio1.jpg)
+![Luokkakaavio](../kuvat/kaavio1.jpeg)
 
 Sekvenssikaavio luokista User ja UserService:
 ```mermaid
