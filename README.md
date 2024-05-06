@@ -29,5 +29,5 @@ poetry run invoke coverage-report
 [vaatimusmäärittely](https://github.com/aliskyalisky/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
 [changelog](https://github.com/aliskyalisky/ot-harjoitustyo/blob/main/dokumentaatio/changelog.md)
 [arkkitehtuuri](https://github.com/aliskyalisky/ot-harjoitustyo/blob/main/dokumentaatio/arkkitehtuuri.md)
-[release](https://github.com/aliskyalisky/ot-harjoitustyo/releases/tag/Viiikko5)
+[release](https://github.com/aliskyalisky/ot-harjoitustyo/releases/tag/loppupalautus)
 
