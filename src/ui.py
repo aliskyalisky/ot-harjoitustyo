@@ -9,13 +9,17 @@ class UI:
         self.user_service = user_service
         self.logged_in = False
 
-    def run(self):
+    def run(self): # pylint: disable=too-many-statements
         print("Welcome to Budgetor!")
 
         if self.logged_in:
             while True:
-                print(
-                    "1: add expense \n 2: edit income \n 3: list expenses \n 4: budget balance \n 5: exit \n 6: log out")
+                print("1: add expense")
+                print("2: edit income")
+                print("3: list expenses")
+                print("4: budget balance")
+                print("5: exit")
+                print("6: log out")
                 command = input()
 
                 match command:
@@ -41,7 +45,7 @@ class UI:
                         self.logged_in = False
                         print("Logged out")
                         break
-        else: 
+        else:
             while True:
                 print(
                     "1: log in \n 2: register")
@@ -55,8 +59,7 @@ class UI:
                             self.logged_in = True
                             print("login successful!")
                             break
-                        else:
-                            print("invalid credientials")
+                        print("invalid credientials")
                     case "2":
                         username = input("Enter username: ")
                         password = input("Enter password: ")

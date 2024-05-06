@@ -1,5 +1,3 @@
-from user import User
-
 class UserService:
     """Luokka joka huolehtii kaikista käyttäjistä
     """
@@ -21,11 +19,11 @@ class UserService:
         Returns:
             list: Lista käyttäjien nimimerkeistä
         """
-        list = []
+        list = [] # pylint: disable=redefined-builtin
         for user in self.users:
             list.append(user.username)
         return list
-    
+
     def check_login(self, username:str, password:str):
         """Tarkistaa käyttäjän nimen ja salasanan
 
@@ -37,7 +35,5 @@ class UserService:
             Boolean: True jos check onnistunut, muuten False
         """
         for user in self.users:
-            if user.username == username and user.password == password:
-                return True
-            else:
-                return False
+            return bool(user.username == username and user.password == password)
+            

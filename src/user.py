@@ -18,3 +18,4 @@ class User:
             new_password (_type_): Uusi salasana
         """
         self.password = new_password
+        

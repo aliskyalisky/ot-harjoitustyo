@@ -29,7 +29,7 @@ class Budget:
             int: tulot - menot
         """
         expenses = 0
-        for expense in self.expenses:
+        for expense in self.expenses.items():
             expenses += self.expenses[expense]
         return self.income - expenses
 
@@ -40,6 +40,6 @@ class Budget:
             str: Tekstimuotoinen lista menoista
         """
         text = ""
-        for expense in self.expenses:
+        for expense in self.expenses.items():
             text += str(expense) + ": " + str(self.expenses[expense]) + "\n"
         return text
