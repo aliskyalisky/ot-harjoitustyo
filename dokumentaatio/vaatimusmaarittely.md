@@ -8,19 +8,19 @@ Sovellus auttaa käyttäjiään seuraamaan ja suunnittelemaan omaa budjettiansa.
 
 ### Ennen kirjautumista
 
-- Käyttäjä voi luoda järjestelmään käyttäjätunnuksen TEHTY
-  - Käyttäjätunnuksen täytyy olla uniikki ja pituudeltaan vähintään 3 merkkiä
-- Käyttäjä voi kirjautua järjestelmään TEHTY
-  - Kirjautuminen onnistuu syötettäessä olemassaoleva käyttäjätunnus ja salasana kirjautumislomakkeelle TEHTY
-  - Jos käyttäjää ei olemassa, tai salasana ei täsmää, ilmoittaa järjestelmä tästä TEHTY
+- Käyttäjä voi luoda järjestelmään käyttäjätunnuksen
+- Käyttäjä voi kirjautua järjestelmään
+- Kirjautuminen onnistuu syötettäessä olemassaoleva käyttäjätunnus ja salasana kirjautumislomakkeelle
+- Jos käyttäjää ei olemassa, tai salasana ei täsmää, ilmoittaa järjestelmä tästä
 
 ### Kirjautumisen jälkeen
 
-- Käyttäjä pääsee sisään omalle dashboardilleen
-- Käyttäjä näkee kuluvan kuukauden menot suhteessa tuloihin eriteltyinä TEHTY
-- Käyttäjä voi lisätä menoja TEHTY
-- Käyttäjä voi muokata menoja TEHTY
-- Käyttäjä voi kirjautua ulos järjestelmästä TEHTY
+- Käyttäjä pääsee sisään sovellukseen
+- Käyttäjä näkee kuluvan kuukauden menot suhteessa tuloihin eriteltyinä
+- Käyttäjä voi laskea säästetyn tai menetetyn määrän rahaa nykyisellä budjetilla x kuukauden päästä
+- Käyttäjä voi lisätä menoja
+- Käyttäjä voi muokata menoja
+- Käyttäjä voi kirjautua ulos järjestelmästä
 
 ## Jatkokehitysideoita
 

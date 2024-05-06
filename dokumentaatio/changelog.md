@@ -21,3 +21,8 @@
 ## Viikko 6
 - Lisää testejä
 - Dokumentaation päivitystä ja täydentämistä
+
+## Loppupalautus
+- Uusi toiminnallisuus: laskee säästetyn tai menetetyn määrän rahaa nykyisellä budjetilla x kuukauden päästä
+- Pylint korjaukset
+- Dokumentaation päivitystä ja täydentämistä

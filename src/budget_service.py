@@ -29,9 +29,17 @@ class Budget:
             int: tulot - menot
         """
         expenses = 0
-        for expense in self.expenses.items():
+        for expense in self.expenses: # pylint: disable=consider-using-dict-items
             expenses += self.expenses[expense]
         return self.income - expenses
+
+    def future_balance(self, months):
+        """Laskee budjetin tulevaisuuden kokonaissaldon
+
+        Returns:
+            int: tulot - menot
+        """
+        return self.balance() * int(months)
 
     def list_expenses(self):
         """Listaa kaikki menot
@@ -40,6 +48,6 @@ class Budget:
             str: Tekstimuotoinen lista menoista
         """
         text = ""
-        for expense in self.expenses.items():
+        for expense in self.expenses: # pylint: disable=consider-using-dict-items
             text += str(expense) + ": " + str(self.expenses[expense]) + "\n"
         return text

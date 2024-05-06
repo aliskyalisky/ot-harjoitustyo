@@ -18,8 +18,9 @@ class UI:
                 print("2: edit income")
                 print("3: list expenses")
                 print("4: budget balance")
-                print("5: exit")
-                print("6: log out")
+                print("5: calculate future total balance")
+                print("6: exit")
+                print("7: log out")
                 command = input()
 
                 match command:
@@ -38,10 +39,13 @@ class UI:
                     case "4":
                         print(f"Current balance: {self.budget.balance()}")
                     case "5":
+                        months = input("How many months into the future? ")
+                        print(f"After {months} months your total balance will be: {self.budget.future_balance(months)}") # pylint: disable=line-too-long
+                    case "6":
                         print("Thank you for using Budgetor!")
                         self.logged_in = False
                         break
-                    case "6":
+                    case "7":
                         self.logged_in = False
                         print("Logged out")
                         break
